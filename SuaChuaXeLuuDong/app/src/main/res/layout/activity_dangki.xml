@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_dang_ki"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dang_ki"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_image_top"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/view_login_bg_rounded_corner"
+        android:layout_margin="@dimen/margin_view_input_dang_ki"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logo_dang_ki"
+            android:layout_gravity="center"
+            android:textStyle="normal"
+            android:textSize="@dimen/text_large"
+            android:padding="@dimen/margin_btn_dang_ki"
+            />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="@dimen/width_for_txt"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tai_khoan"
+                    android:textSize="@dimen/text_normal"
+                    android:paddingLeft="@dimen/padding_txt"
+                    />
+                <EditText
+                    android:id="@+id/txtTaikhoan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="12"
+                    android:hint="@string/hint_tai_khoan"
+                    android:inputType="text"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="@dimen/width_for_txt"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mat_khau"
+                    android:textSize="@dimen/text_normal"
+                    android:paddingLeft="@dimen/padding_txt"/>
+                <EditText
+                    android:id="@+id/txtMatkhau"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="12"
+                    android:hint="@string/hint_mat_khau"
+                    android:inputType="textPassword"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="@dimen/width_for_txt"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xac_nhap_mat_khau"
+                    android:textSize="@dimen/text_normal"
+                    android:paddingLeft="@dimen/padding_txt"
+                    />
+                <EditText
+                    android:id="@+id/txtXacnhanMk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="12"
+                    android:hint="@string/hint_mat_khau"
+                    android:inputType="textPassword"
+                    android:textSize="@dimen/text_normal"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="@dimen/width_for_txt"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ten"
+                    android:textSize="@dimen/text_normal"
+                    android:paddingLeft="@dimen/padding_txt"
+                    />
+                <EditText
+                    android:id="@+id/txtSodienthoai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="12"
+                    android:hint="@string/hint_ten"
+                    android:inputType="text"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="@dimen/width_for_txt"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dia_chi"
+                    android:textSize="@dimen/text_normal"
+                    android:paddingLeft="@dimen/padding_txt"/>
+                <EditText
+                    android:id="@+id/txtDiachi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="12"
+                    android:hint="@string/hint_dia_chi"
+                    android:inputType="text"
+                    android:textSize="@dimen/text_normal"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="@dimen/width_for_txt"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nam_sinh"
+                    android:textSize="@dimen/text_normal"
+                    android:paddingLeft="@dimen/padding_txt"
+                    />
+                <EditText
+                    android:id="@+id/txtNamsinh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="12"
+                    android:hint="@string/hint_nam_sinh"
+                    android:inputType="number"
+
+                    />
+
+
+            </LinearLayout>
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <RadioButton
+                    android:id="@+id/btnQLThosuaxe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_normal"
+                    android:layout_weight="1"
+                    android:text="@string/tho_sua_xe"
+
+                    />
+
+                <RadioButton
+                    android:id="@+id/btnQLKhachhang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_normal"
+                    android:text="@string/khach_hang"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    />
+            </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/btnDangki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_bg_rounded_corner"
+                android:text="@string/dang_ki" />
+            <Button
+                android:id="@+id/btnTrolai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tro_lai"
+                android:background="@drawable/button_bg_rounded_corner"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

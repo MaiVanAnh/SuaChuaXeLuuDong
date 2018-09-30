@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_image_top">10dp</dimen>
+    <dimen name="text_large">22sp</dimen>
+    <dimen name="text_normal">18sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="text_height">50dp</dimen>
+    <dimen name="margin_view_input_login">16dp</dimen>
+    <dimen name="margin_view_input_dang_ki">8dp</dimen>
+    <dimen name="margin_btn_dang_ki">10dp</dimen>
+    <dimen name="padding_txt">6dp</dimen>
+    <dimen name="width_for_txt">120dp</dimen>
+    <dimen name="height_for_txt">40dp</dimen>
+
+
+    <dimen name="chieucaohinh">90dp</dimen>
+    <dimen name="hinhmagictop">15dp</dimen>
+    <dimen name="caobang">420dp</dimen>
+    <dimen name="rongbang">350dp</dimen>
+    <dimen name="leftbang">20dp</dimen>
+    <dimen name="rong1">160dp</dimen>
+    <dimen name="size_btnchon">30dp</dimen>
+    <dimen name="rongbtndk">70dp</dimen>
+    <dimen name="caobtndk">45dp</dimen>
+    <dimen name="caobangquanli">340dp</dimen>
+    <dimen name="cachle">6dp</dimen>
+    <dimen name="cachlebtn">20dp</dimen>
+    <dimen name="textsize_textview">20sp</dimen>
+    <dimen name="textsize_radiobuttom">18sp</dimen>
+    <dimen name="size_caotext">20dp</dimen>
+    <dimen name="mgleft_radiogroup">15dp</dimen>
+    <dimen name="caobtnQL">28dp</dimen>
+    <dimen name="mgtopbtnQL">3dp</dimen>
+    <dimen name="mgtopgroupQL">3dp</dimen>
+    <dimen name="margin_for_txt">5dp</dimen>
+    <dimen name="padding_for_hint_text">5dp</dimen>
+
+
+</resources>

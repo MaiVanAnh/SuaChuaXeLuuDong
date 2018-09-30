@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SuaChuaXeLuuDong</string>
+
+    <string name="quen_mat_khau"><u>Quên mật khẩu?</u></string>
+    <string name="dang_ki"><u>Đăng kí</u></string>
+    <string name="tro_lai"><u>Trở lại</u></string>
+    <string name="dang_nhap"><u>Đăng nhập</u></string>
+    <string name="luu"><u>Lưu</u></string>
+
+    <string name="tai_khoan">Tài khoản</string>
+    <string name="mat_khau">Mật khẩu</string>
+    <string name="xac_nhap_mat_khau">Xác nhận MK</string>
+    <string name="ten">Tên</string>
+    <string name="sdt">Số điện thoại</string>
+    <string name="dia_chi">Địa chỉ</string>
+    <string name="nam_sinh">Năm sinh</string>
+
+    <string name="logo_dang_ki">Đăng kí</string>
+    <string name="tho_sua_xe">Thợ sửa xe</string>
+    <string name="khach_hang">Khách hàng</string>
+    <string name="btn_luu">Lưu</string>
+    <string name="btn_dang_xuat">Đăng xuất</string>
+
+    <string name="hint_tai_khoan">nameAccount@xyz.tf</string>
+    <string name="hint_mat_khau">gồm 6 kí tự</string>
+    <string name="hint_ten">nhập tên</string>
+    <string name="hint_dia_chi">nhập địa chỉ</string>
+    <string name="hint_nam_sinh">xxxx</string>
+    <string name="hint_sdt">nhập số điện thoại</string>
+
+    <string name="image_profile">image profile</string>
+
+
+</resources>

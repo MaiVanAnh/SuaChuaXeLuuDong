@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#fff</color>
+    <color name="background">#88a3e2</color>
+    <color name="background_dang_ki">#cde5f7</color>
+    <color name="background_for_tim_kiem">#eff0f1</color>
+    <color name="background_login_view">#5a72a8</color>
+    <color name="background_button_dang_nhap">#3f5589</color>
+    <color name="background_button_dang_nhap_stroke">#19167c</color>
+    <color name="colortrang">#88a4e2</color>
+    <color name="colormaubang">#f0f0f0</color>
+    <color name="colorbtndk">#405588</color>
+    <color name="colormautrang">#ffff</color>
+
+
+</resources>

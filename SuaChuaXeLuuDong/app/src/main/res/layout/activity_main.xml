@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_image_top"
+        app:srcCompat="@drawable/icon_login" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLogin"
+        android:layout_margin="@dimen/margin_view_input_login"
+        android:background="@drawable/view_login_bg_rounded_corner"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:paddingLeft="@dimen/padding_left"
+                android:text="@string/tai_khoan"
+                android:textColor="@color/white"
+                />
+
+            <EditText
+                android:id="@+id/txtTaiKhoan"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_height"
+                android:background="@drawable/edittext_bg_rounded_corner"
+                android:hint="@string/hint_tai_khoan"
+                android:paddingLeft="@dimen/padding_left"
+                android:textSize="@dimen/text_small"
+                android:layout_marginRight="80dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:paddingLeft="@dimen/padding_left"
+                android:text="@string/mat_khau"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/txtMatKhau"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_height"
+                android:background="@drawable/edittext_bg_rounded_corner"
+                android:hint="@string/hint_mat_khau"
+                android:paddingLeft="@dimen/padding_left"
+                android:textSize="@dimen/text_small"
+                android:layout_marginRight="80dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnDangNhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg_rounded_corner"
+            android:gravity="center"
+            android:text="@string/dang_nhap"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_large"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="8dp">
+
+
+            <TextView
+                android:id="@+id/txtQuenMatKhau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/quen_mat_khau" />
+
+            <TextView
+                android:id="@+id/txtDangKi"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text="@string/dang_ki"
+                android:layout_weight="1"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
