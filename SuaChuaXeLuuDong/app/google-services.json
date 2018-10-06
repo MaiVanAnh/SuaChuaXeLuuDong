@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "376451562906",
+    "firebase_url": "https://suachuaxeluudong.firebaseio.com",
+    "project_id": "suachuaxeluudong",
+    "storage_bucket": "suachuaxeluudong.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376451562906:android:de51ebdde5629638",
+        "android_client_info": {
+          "package_name": "vn.edu.vananh.suachuaxeluudong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376451562906-fnpcab6p92pr6kk7lfl6577bp5j4qb84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.edu.vananh.suachuaxeluudong",
+            "certificate_hash": "f12905f95f6c8e8ed6eb6fd5a99199c11fb39d3c"
+          }
+        },
+        {
+          "client_id": "376451562906-r210rjoqiat102ks3tktg9l8q48qhjrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9Lj2gQRRjbaDX_AXKunxOZnLqzcLaCLc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376451562906-r210rjoqiat102ks3tktg9l8q48qhjrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

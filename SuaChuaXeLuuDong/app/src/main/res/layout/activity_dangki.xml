@@ -52,6 +52,7 @@
                     android:ems="12"
                     android:hint="@string/hint_tai_khoan"
                     android:inputType="text"
+                    android:textColor="@color/colorxam"
                     />
             </LinearLayout>
 
@@ -73,7 +74,9 @@
                     android:layout_height="wrap_content"
                     android:ems="12"
                     android:hint="@string/hint_mat_khau"
-                    android:inputType="textPassword"/>
+                    android:inputType="textPassword"
+                    android:textColor="@color/colorxam"
+                    />
 
             </LinearLayout>
             <LinearLayout
@@ -97,6 +100,7 @@
                     android:hint="@string/hint_mat_khau"
                     android:inputType="textPassword"
                     android:textSize="@dimen/text_normal"
+                    android:textColor="@color/colorxam"
                     />
 
             </LinearLayout>
@@ -120,6 +124,7 @@
                     android:ems="12"
                     android:hint="@string/hint_ten"
                     android:inputType="text"
+                    android:textColor="@color/colorxam"
                     />
 
 
@@ -144,6 +149,7 @@
                     android:hint="@string/hint_dia_chi"
                     android:inputType="text"
                     android:textSize="@dimen/text_normal"
+                    android:textColor="@color/colorxam"
                     />
 
 
@@ -157,25 +163,25 @@
                 <TextView
                     android:layout_width="@dimen/width_for_txt"
                     android:layout_height="wrap_content"
-                    android:text="@string/nam_sinh"
+                    android:text="@string/sodienthoai"
                     android:textSize="@dimen/text_normal"
                     android:paddingLeft="@dimen/padding_txt"
                     />
                 <EditText
-                    android:id="@+id/txtNamsinh"
+                    android:id="@+id/txtSdt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="12"
                     android:hint="@string/hint_nam_sinh"
                     android:inputType="number"
-
+                    android:textColor="@color/colorxam"
                     />
 
 
             </LinearLayout>
 
             <RadioGroup
-
+                android:id="@+id/radioNgheNghiepGroup"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
@@ -183,24 +189,23 @@
                 >
 
                 <RadioButton
-                    android:id="@+id/btnQLThosuaxe"
+                    android:id="@+id/radioThosuaxe"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/text_normal"
                     android:layout_weight="1"
                     android:text="@string/tho_sua_xe"
+                    android:textSize="@dimen/text_normal"
 
                     />
 
                 <RadioButton
-                    android:id="@+id/btnQLKhachhang"
+                    android:id="@+id/radioKhachHang"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/text_normal"
-                    android:text="@string/khach_hang"
                     android:layout_weight="1"
                     android:checked="true"
-                    />
+                    android:text="@string/khach_hang"
+                    android:textSize="@dimen/text_normal" />
             </RadioGroup>
 
         <LinearLayout

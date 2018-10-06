@@ -29,6 +29,17 @@
     <string name="hint_sdt">nhập số điện thoại</string>
 
     <string name="image_profile">image profile</string>
+    <string name="sodienthoai">Sđt</string>
+
+    <string name="thieuThongTin">Vui lòng, nhập đầy đủ thông tin</string>
+    <string name="matKhauKhongKhop">Mật khẩu không trùng khớp</string>
+    <string name="taiKhoanKhongHopLe">Tài khoản không hợp lệ xxx@xxx.xx</string>
+    <string name="saiTaiKhoanOrSaiMK">Tài khoản không đúng hoặc sai mật khẩu</string>
+    <string name="kiemTraThongTin">Vui lòng kiểm tra lại thông tin</string>
+    <string name="chuaNhapMatKhau">Chưa nhập mật khẩu</string>
+    <string name="chuaNhapTaiKhoan">Chưa nhập tài khoản</string>
+    <string name="saiTaiKhoanOrMk">Tài khoản không tồn tại hoặc sai mật khẩu</string>
+
 
 
 </resources>

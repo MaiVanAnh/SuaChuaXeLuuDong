@@ -3,7 +3,7 @@
     <dimen name="margin_image_top">10dp</dimen>
     <dimen name="text_large">22sp</dimen>
     <dimen name="text_normal">18sp</dimen>
-    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_small">15sp</dimen>
     <dimen name="padding_left">10dp</dimen>
     <dimen name="text_height">50dp</dimen>
     <dimen name="margin_view_input_login">16dp</dimen>
